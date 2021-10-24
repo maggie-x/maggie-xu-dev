@@ -4,8 +4,6 @@ layout: layouts/page.njk
 
 # About Me
 
-Aloha 🍍
-
 I'm a full stack engineer driven to build high quality and impactful products!
 So far I’ve had 2+ years of experience in frontend frameworks (React, Angular), 1+ year of experience in backend API development (Spring, Kotlin, JVM), 1+ year of experience with AWS.
 I'm currently exploring the world of data analytics and machine learning through side projects and online courses (i.e. Andrew Ng's infamous Machine Learning course).
