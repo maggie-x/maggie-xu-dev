@@ -3,7 +3,7 @@ layout: layouts/home.njk
 ---
 
 <div class="illo-container">
-  <img src="static/lightbulb.png" class="illustration" style="align: right" alt="Eleventy!">
+  <img src="static/planet.png" class="illustration" style="align: right" title="https://www.flaticon.com/authors/smalllikeart">
 </div>
 
 # Hey there 👋

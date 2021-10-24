@@ -5,21 +5,25 @@
     {# This is the base template for the site–other templates extend this one #}
     
     <meta charset="utf-8" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link rel="icon" href="/public/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Your new 11ty blog" />
-    <link rel="stylesheet" type="text/css" href="/public/style.css" />
+    {# <link rel="stylesheet" type="text/css" href="/public/style.css" /> #}
+     <link rel="stylesheet" href="/public/tailwind.css" />
     {% seo "" %}
   </head>
   <body>
   <main>
     <header class="footer">
         <div class="links">
-          <a href="/">Home</a>
+          <div class="flex">
+             <img class="pr-3" src="/public/favicon.ico" width="40px" />
+              <a href="/">Home</a>
+          </fiv>
           <span class="divider">|</span>
           <a href="/posts">Posts</a>
           <span class="divider">|</span>
-          <a href="/about">About</a>
+          <a href="/about-me">About Me</a>
         </div>
       </header>
     

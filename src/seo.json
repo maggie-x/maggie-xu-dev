@@ -1,7 +1,6 @@
 {
-  "glitch-help-instructions": "For a custom domain, change the 'url' parameter from 'glitch-default' to your domain _without_ a traling slash, like 'https://www.example.com'",
   "title": "Maggie Xu",
   "description": "A Software Engineer based in Sydney",
-  "url": "maggiexu.dev",
-  "image": "https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-eleventy-social.png?v=1616712747908"
+  "url": "https://maggiexu.dev",
+  "image": "https://media-exp1.licdn.com/dms/image/C5603AQEMHfxOf3VG6A/profile-displayphoto-shrink_800_800/0/1627714621822?e=1640217600&v=beta&t=6ICvl8izP1fDGeWMqTSvehr5bUFDQbAksCFShU59g_M"
 }
