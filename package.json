@@ -5,10 +5,10 @@
   "scripts": {
     "start": "npm-run-all --parallel bundle:*",
     "bundle:eleventy": "eleventy --serve --quiet",
-    "bundle:tailwind": "parcel src/assets/css/* --dist-dir public",
+    "bundle:tailwind": "parcel src/assets/css/* --dist-dir build/assets/css",
     "build": "npm-run-all --parallel prod:*",
     "prod:eleventy": "NODE_ENV=production eleventy",
-    "prod:tailwind": "parcel build src/assets/css/* --dist-dir public"
+    "prod:tailwind": "parcel build src/assets/css/* --dist-dir build/assets/css"
   },
   "dependencies": {
     "autoprefixer": "^10.3.7",

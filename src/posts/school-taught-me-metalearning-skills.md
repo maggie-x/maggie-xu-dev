@@ -1,6 +1,6 @@
 ---
 title: What school taught me — meta-learning skills
-description: Add posts and your site build will publish them
+description: Study tips and tricks
 date: 2020-03-02
 tags:
   - posts
