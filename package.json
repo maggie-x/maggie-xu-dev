@@ -11,9 +11,11 @@
     "prod:tailwind": "parcel build src/assets/css/* --dist-dir build/assets/css"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.3.0",
     "autoprefixer": "^10.3.7",
     "eleventy-plugin-seo": "^0.5.1",
     "luxon": "^1.26.0",
+    "nunjucks-markdown": "^2.0.1",
     "postcss": "^8.3.11",
     "tailwindcss": "^2.2.17"
   },
