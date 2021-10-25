@@ -8,8 +8,11 @@ layout: layouts/home.njk
 
 # Hey there 👋
 
-I'm **Maggie**, a Software Engineer endlessly curious about a multitude of things. Welcome to my site!
-
-Currently working at AWS building out [AQUA for Redshift (Advanced Query Accelerator)](https://aws.amazon.com/redshift/features/aqua/).
-
-More about me [here](https://maggiexu.dev/about-me).
+<div class="space-y-6">
+  <div class="text-xl">
+  I'm <span class="font-black">Maggie</span>, a Software Engineer endlessly curious about the universe. Welcome to my site!
+  </div>
+  <div class="text-xl">
+  Currently working at AWS building out <a href="https://aws.amazon.com/redshift/features/aqua/">AQUA for Redshift (Advanced Query Accelerator)</a>.
+  </div>
+</div>
