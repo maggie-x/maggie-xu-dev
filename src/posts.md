@@ -2,6 +2,6 @@
 layout: layouts/posts.njk
 ---
 
-## Posts
+# Posts
 
 Exploring tech + random miscellaneous ponderings.
