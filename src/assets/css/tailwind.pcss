@@ -133,19 +133,26 @@
     margin-bottom: 1.75rem;
     font-size: 5rem;
     display: inline-flex;
-    background: #9505e3; /* fallback for old browsers */
+    background: rgb(93, 38, 193);
+    background: -moz-linear-gradient(
+      90deg,
+      rgba(93, 38, 193, 1) 0%,
+      rgba(161, 127, 224, 1) 40%,
+      rgba(89, 193, 115, 1) 100%
+    );
     background: -webkit-linear-gradient(
-      to right,
-      #5d26c1,
-      #a17fe0,
-      #59c173
-    ); /* Chrome 10-25, Safari 5.1-6 */
+      90deg,
+      rgba(93, 38, 193, 1) 0%,
+      rgba(161, 127, 224, 1) 40%,
+      rgba(89, 193, 115, 1) 100%
+    );
     background: linear-gradient(
-      to right,
-      #5d26c1,
-      #a17fe0,
-      #59c173
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      90deg,
+      rgba(93, 38, 193, 1) 0%,
+      rgba(161, 127, 224, 1) 40%,
+      rgba(89, 193, 115, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5d26c1",endColorstr="#59c173",GradientType=1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
