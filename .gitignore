@@ -1,6 +1,6 @@
 build
 node_modules
 web_modules
-src/.DS_STORE
+*/.DS_STORE
 .DS_STORE
 .parcel-cache
