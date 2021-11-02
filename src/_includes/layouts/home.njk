@@ -23,10 +23,10 @@ templateClass: tmpl-home
     <h3>Posts</h3>
     <ul>
       {%- for post in collections.posts -%}
-        <li{% if page.url == post.url %} aria-current="page"{% endif %}>{{ post.data.page.date | htmlDateString }} — <a href='{{ post.url }}'>{{ post.data.title }}</a>
+        <li class="list-none" {% if page.url == post.url %} aria-current="page"{% endif %}>{{ post.data.page.date | htmlDateString }} — <a href='{{ post.url }}'>{{ post.data.title }}</a>
         </li>
       {%- endfor -%}
-      <li>
+      <li class="list-none">
         <a href="/posts">View all posts</a>
       </li>
     </ul>
