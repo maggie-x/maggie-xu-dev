@@ -1,18 +1,29 @@
 {%- from "components/language.njk" import language -%}
 {% macro languages() %}
+    <div class="inline-flex flex-wrap -mx-3 overflow-hidden sm:-mx-3 md:-mx-3 lg:-mx-3 xl:-mx-3 gap-3">
 
-    <div class="inline-flex flex-wrap -mx-3 overflow-hidden sm:-mx-3 md:-mx-3 lg:-mx-3 xl:-mx-3">
-
-        <div class="my-3 px-3">
+        <div class="ml-3">
             {{language("React", "/static/react.png")}}
         </div>
 
-        <div class="my-3 px-3">
+        <div>
+            {{language("JavaScript", "/static/js.png")}}
+        </div>
+
+        <div>
+            {{language("Java", "/static/java.png")}}
+        </div>
+
+        <div>
             {{language("Kotlin", "/static/kotlin.png")}}
         </div>
 
-        <div class="my-3 px-3">
+        <div >
+            {{language("Python", "/static/python.png")}}
+        </div>
+        <div >
             {{language("Pandas", "/static/pandas.png")}}
         </div>
+
     </div>
 {% endmacro %}

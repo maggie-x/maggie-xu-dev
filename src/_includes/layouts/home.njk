@@ -4,6 +4,7 @@ templateClass: tmpl-home
 ---
 {%- from "components/languages.njk" import languages -%}
 {%- from "components/language.njk" import language -%}
+{%- from "components/professional-history/role.njk" import role -%}
 {%- from "components/currentlyReading.njk" import currentlyReading -%}
 
 {# The Home page uses this template–it extends the base template #}
@@ -12,7 +13,7 @@ templateClass: tmpl-home
   <div class="pb-48 content">
     {{ content | safe }}
 
-    <h3>Working Languages</h3>
+    <h3>Toolbox</h3>
     {{languages()}}
 
     <h3>Currently Studying</h3>
