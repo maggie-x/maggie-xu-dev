@@ -8,11 +8,9 @@ layout: layouts/home.njk
 
 # Hey there 👋
 
-<div class="space-y-6">
-  <div class="text-lg">
-  I'm <span class="font-black">Maggie</span>, a Software Engineer endlessly curious about the universe. Welcome to my site!
-  </div>
-  <div class="text-lg">
-  Currently working at AWS building out <a href="https://aws.amazon.com/redshift/features/aqua/">AQUA for Redshift (Advanced Query Accelerator)</a>.
-  </div>
-</div>
+I'm **Maggie**, a Software Engineer by trade currently navigating the world of Data Analytics and Machine Learning in my spare time.
+Deeply inspired by the potential for technology to enhance our individual lives, I'm a productivity-freak who uses [Notion](https://notion.so) religiously, and am constantly striving to design and engineer my life for the better.
+
+Aside from tech, I enjoy breaking a sweat dancing, playing sport and travelling.
+
+Currently at AWS building out [AQUA for Redshift (Advanced Query Accelerator)](https://aws.amazon.com/redshift/features/aqua/).
