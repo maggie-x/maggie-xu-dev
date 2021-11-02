@@ -1,38 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
+
     {# This is the base template for the site–other templates extend this one #}
-    
-    <meta charset="utf-8" />
-    <link rel="icon" href="/public/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Your new 11ty blog" />
-     <link rel="stylesheet" href="/assets/css/tailwind.css" />
+
+    <meta charset="utf-8"/>
+    <link rel="icon" href="/public/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Your new 11ty blog"/>
+    <link rel="stylesheet" href="/assets/css/tailwind.css"/>
     {% seo "" %}
   </head>
   <body>
-  <main>
-    <header class="footer">
+    <main>
+      {# <header class="footer">
         <div class="links">
           <div class="flex">
-             <img class="pr-3" src="/public/favicon.ico" width="40px" />
-              <a href="/">Home</a>
+            <img class="pr-3" src="/public/favicon.ico" width="40px"/>
+            <a href="/">Home</a>
           </fiv>
           <span class="divider">|</span>
           <a href="/posts">Posts</a>
           <span class="divider">|</span>
           <a href="/about-me">About Me</a>
         </div>
-      </header>
-    
-    {# Page or post content will appear here #}
-  
-    {{ content | safe }}
+      </header> #}
 
-      
-    
-  </main>
-   
+      <header>
+        <div class="flex flex-wrap justify-between items-center max-w-5xl mt-1 py-6 px-4 mx-auto gap-6">
+          <div class="flex flex-wrap items-center">
+            <img class="pr-3" src="/public/favicon.ico" width="40px"/>
+            <a class="font-extrabold tracking-widest" href="/">Maggie Xu</a>
+          </div>
+          <div class="flex flex-wrap items-center gap-6">
+            <a href="/posts">Posts</a>
+            <a href="/about-me">About Me</a>
+          </div>
+        </div>
+      </header>
+
+      {# Page or post content will appear here #}
+
+      {{ content | safe }}
+
+    </main>
+
   </body>
 </html>
