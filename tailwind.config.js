@@ -14,7 +14,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      stroke: ["hover", "focus"],
+    },
   },
   plugins: [require("@tailwindcss/aspect-ratio")],
 };
