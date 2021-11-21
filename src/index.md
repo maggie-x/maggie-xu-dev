@@ -6,9 +6,7 @@ layout: layouts/home.njk
   <img src="static/galaxy.png" class="illustration" style="align: right" title="https://www.flaticon.com/authors/tulpahn">
 </div>
 
-<div class="mb-16">
-<h1>Hey there&nbsp;<span class="shake">👋</span></h1>
-</div>
+# Hey there 👋
 
 I'm **Maggie**, a Full-Stack Software Engineer by day currently navigating the world of Data Analytics and Machine Learning in my spare time.
 
