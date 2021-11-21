@@ -10,25 +10,30 @@ templateClass: tmpl-home
 {# The Home page uses this template–it extends the base template #}
 
 <div class="wrapper home">
-  <div class="pb-48 content">
+  <div class="pb-48 content space-y-4">
     {{ content | safe }}
 
-    <h3>Toolbox</h3>
-    {{languages()}}
-
-    <h3>Currently Studying</h3>
-    {{currentlyReading()}}
-
+    <div>
+      <h3>Toolbox</h3>
+      {{languages()}}
+    </div>
+    <div>
+      <h3>Currently Studying</h3>
+      {{currentlyReading()}}
+    </div>
     {# After the the content defined in index.md, list the blog posts in the collection #}
-    <h3>Posts</h3>
-    <ul>
-      {%- for post in collections.posts -%}
-        <li class="list-none" {% if page.url == post.url %} aria-current="page"{% endif %}>{{ post.data.page.date | htmlDateString }} — <a href='{{ post.url }}'>{{ post.data.title }}</a>
+
+    <div>
+      <h3>Posts</h3>
+      <ul>
+        {%- for post in collections.posts -%}
+          <li class="list-none" {% if page.url == post.url %} aria-current="page"{% endif %}>{{ post.data.page.date | htmlDateString }} — <a href='{{ post.url }}'>{{ post.data.title }}</a>
+          </li>
+        {%- endfor -%}
+        <li class="list-none">
+          <a href="/posts">View all posts</a>
         </li>
-      {%- endfor -%}
-      <li class="list-none">
-        <a href="/posts">View all posts</a>
-      </li>
-    </ul>
+      </ul>
+    </div>
   </div>
 </div>
